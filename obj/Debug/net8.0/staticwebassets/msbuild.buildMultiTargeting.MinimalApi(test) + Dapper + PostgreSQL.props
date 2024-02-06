@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\MinimalApi(test) + Dapper + PostgreSQL.props" />
+</Project>

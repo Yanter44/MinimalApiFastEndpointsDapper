@@ -1,0 +1,6 @@
+@MinimalApi_test____Dapper___PostgreSQL_HostAddress = http://localhost:5286
+
+GET {{MinimalApi_test____Dapper___PostgreSQL_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

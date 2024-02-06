@@ -1,0 +1,35 @@
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\appsettings.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.exe
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.deps.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.runtimeconfig.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.pdb
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Microsoft.OpenApi.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.AssemblyInfo.cs
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.sourcelink.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets\msbuild.MinimalApi(test) + Dapper + PostgreSQL.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets\msbuild.build.MinimalApi(test) + Dapper + PostgreSQL.props
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.MinimalApi(test) + Dapper + PostgreSQL.props
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.MinimalApi(test) + Dapper + PostgreSQL.props
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\staticwebassets.pack.json
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\scopedcss\bundle\MinimalApi(test) + Dapper + PostgreSQL.styles.css
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.csproj.CopyComplete
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\refint\MinimalApi(test) + Dapper + PostgreSQL.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.pdb
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\MinimalApi(test) + Dapper + PostgreSQL.genruntimeconfig.cache
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\obj\Debug\net8.0\ref\MinimalApi(test) + Dapper + PostgreSQL.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Dapper.dll
