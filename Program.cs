@@ -23,7 +23,7 @@ builder.Services.AddSwaggerGen(c =>
 builder.Services.AddFastEndpoints();
 builder.Services.AddSingleton<IDbConnectionFactory>
 (
- serviceProvider => new SqlFactory("Server=DESKTOP-S9AIDDH\\SQLEXPRESS; Database=FluentMigratorDb; Trusted_Connection=True; TrustServerCertificate=True")
+ serviceProvider => new SqlFactory()
 );
 builder.Services.AddTransient<IToDolister, ToDoListService>();
 builder.Services.AddTransient<IDateTime, DateTimeService>();

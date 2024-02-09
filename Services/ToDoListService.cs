@@ -23,8 +23,8 @@ namespace MinimalApi_test____Dapper___PostgreSQL.Services
         }
 
         public async Task<string> AddToDo(ToDoModelDtos todomodelDto)
-        {         
-            using(var connection = await _connectionFactory.CreateConnectionAsync())
+        {
+            using (var connection = await _connectionFactory.CreateConnectionAsync())
             {
                 await connection.ExecuteAsync($@"INSERT INTO {TableName} 
                                                 (WhatToDo,is_it_done,DataTimeNow,MustToCompleteTime) 
@@ -38,15 +38,15 @@ namespace MinimalApi_test____Dapper___PostgreSQL.Services
         {         
             if (!_cache.TryGetValue(CacheKey, out List<ToDoModel> toDoList))
             {
-                 using (var connection = await _connectionFactory.CreateConnectionAsync())
-                 {
-                      
-                   var result = await connection.QueryAsync<ToDoModel>($"SELECT *, CAST(DataTimeNow AS datetime) AS DateTimeNow," +
-                                                                       $" CAST(MustToCompleteTime AS datetime) AS DateTimeFieldMustDo" +
-                                                                       $" FROM {TableName}", ct);
-                       
-                     toDoList = result.ToList();
-                 }
+                using (var connection = await _connectionFactory.CreateConnectionAsync())
+                {
+
+                    var result = await connection.QueryAsync<ToDoModel>($"SELECT *, CAST(DataTimeNow AS datetime) AS DateTimeNow," +
+                                                                        $" CAST(MustToCompleteTime AS datetime) AS DateTimeFieldMustDo" +
+                                                                        $" FROM {TableName}", ct);
+
+                    toDoList = result.ToList();
+                }
               _cache.Set(CacheKey, toDoList, TimeSpan.FromMinutes(10));
             }
            return toDoList;
