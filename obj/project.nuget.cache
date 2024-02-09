@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "fR+jfRinLU8VAYbjcpsSSFnNjI44cRBFXb8m8uiSQ8A6tIkyzhKJEscnBRzStiQnVeShE51E2voNxXWn/Ws2bA==",
+  "dgSpecHash": "VCf9YDqUl95nlDeLj55SRRC4dmP1Jax4CQ1p9TFNBNl/5+kwGHsACrg0Vvm3u4d8hWasy6Y7iCE/YZgSrdX9Ag==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\MinimalApi(test) + Dapper + PostgreSQL\\MyMinimalApi.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\dapper\\2.1.28\\dapper.2.1.28.nupkg.sha512",
@@ -69,6 +70,7 @@
     "C:\\Users\\user\\.nuget\\packages\\nswag.core.yaml\\14.0.2\\nswag.core.yaml.14.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nswag.generation\\14.0.2\\nswag.generation.14.0.2.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\nswag.generation.aspnetcore\\14.0.2\\nswag.generation.aspnetcore.14.0.2.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\nunit\\4.0.1\\nunit.4.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog\\3.1.1\\serilog.3.1.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.aspnetcore\\8.0.1\\serilog.aspnetcore.8.0.1.nupkg.sha512",
     "C:\\Users\\user\\.nuget\\packages\\serilog.extensions.hosting\\8.0.0\\serilog.extensions.hosting.8.0.0.nupkg.sha512",

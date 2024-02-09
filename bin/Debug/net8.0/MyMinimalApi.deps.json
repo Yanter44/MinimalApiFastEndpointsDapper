@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v8.0": {
       "MyMinimalApi/1.0.0": {
         "dependencies": {
+          "AutoMapper": "13.0.1",
           "Dapper": "2.1.28",
           "FastEndpoints": "5.22.0",
           "FastEndpoints.Swagger": "5.22.0",
@@ -16,12 +17,24 @@
           "FluentMigrator.Runner.SqlServer": "5.0.0",
           "Hangfire": "1.8.9",
           "Microsoft.AspNetCore.OpenApi": "8.0.1",
+          "NUnit": "4.0.1",
           "Npgsql": "8.0.1",
           "Serilog.AspNetCore": "8.0.1",
           "Swashbuckle.AspNetCore": "6.4.0"
         },
         "runtime": {
           "MyMinimalApi.dll": {}
+        }
+      },
+      "AutoMapper/13.0.1": {
+        "dependencies": {
+          "Microsoft.Extensions.Options": "8.0.0"
+        },
+        "runtime": {
+          "lib/net6.0/AutoMapper.dll": {
+            "assemblyVersion": "13.0.0.0",
+            "fileVersion": "13.0.1.0"
+          }
         }
       },
       "Azure.Core/1.25.0": {
@@ -737,6 +750,18 @@
           }
         }
       },
+      "NUnit/4.0.1": {
+        "runtime": {
+          "lib/net6.0/nunit.framework.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          },
+          "lib/net6.0/nunit.framework.legacy.dll": {
+            "assemblyVersion": "4.0.1.0",
+            "fileVersion": "4.0.1.0"
+          }
+        }
+      },
       "Serilog/3.1.1": {
         "runtime": {
           "lib/net7.0/Serilog.dll": {
@@ -1068,6 +1093,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "AutoMapper/13.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-/Fx1SbJ16qS7dU4i604Sle+U9VLX+WSNVJggk6MupKVkYvvBm4XqYaeFuf67diHefHKHs50uQIS2YEDFhPCakQ==",
+      "path": "automapper/13.0.1",
+      "hashPath": "automapper.13.0.1.nupkg.sha512"
     },
     "Azure.Core/1.25.0": {
       "type": "package",
@@ -1523,6 +1555,13 @@
       "sha512": "sha512-h0n/xg7WzrmN8CS7ycwEpkNIe9qa7Algf3I0lFjdj75jHjl4lKo2ktuRcKOX2NslKXP9mjgUR2SmXbCZc7EqAg==",
       "path": "nswag.generation.aspnetcore/14.0.2",
       "hashPath": "nswag.generation.aspnetcore.14.0.2.nupkg.sha512"
+    },
+    "NUnit/4.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-jNTHZ01hJsDNPDSBycoHpavFZUBf9vRVQLCyuo78LRrrFj6Ol/CeqK+NIeTk5d8Eycjk59KseWb7X5Ge6z7CgQ==",
+      "path": "nunit/4.0.1",
+      "hashPath": "nunit.4.0.1.nupkg.sha512"
     },
     "Serilog/3.1.1": {
       "type": "package",

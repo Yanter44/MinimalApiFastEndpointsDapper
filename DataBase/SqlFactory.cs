@@ -6,15 +6,16 @@ namespace MinimalApi_test____Dapper___PostgreSQL.DataBase
 {
     public class SqlFactory : IDbConnectionFactory
     {
-        private readonly string _connectionString;
+        
 
-        public SqlFactory(string connectionString)
+        public SqlFactory()
         {
-            _connectionString = connectionString;
+         
         }
         public async Task<IDbConnection> CreateConnectionAsync()
         {
-            var connection = new SqlConnection(_connectionString);
+            var connection = new SqlConnection();
+            connection.ConnectionString = "Server=DESKTOP-S9AIDDH\\SQLEXPRESS; Database=FluentMigratorDb; Trusted_Connection=True; TrustServerCertificate=True";
             await connection.OpenAsync();
             return connection;
         }
