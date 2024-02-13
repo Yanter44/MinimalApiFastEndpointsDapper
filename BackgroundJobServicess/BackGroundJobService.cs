@@ -33,7 +33,7 @@ namespace MinimalApi_test____Dapper___PostgreSQL.BackgroundJobServicess
                 var scheduledTasks = await connection.QueryAsync<ToDoModelDtos>($"SELECT * FROM ToDoList WHERE MustToCompleteTime = '{formattedDateTime}'");
                 foreach (var task in scheduledTasks)
                 {
-                    Console.WriteLine($"Вы не выполнили задачу {task.WhatToDo} :(");
+                    Log.Error($"Вы не выполнили задачу {task.WhatToDo} :(");
                 }
                 if (scheduledTasks.Count() == 0)
                 {

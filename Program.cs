@@ -10,6 +10,7 @@ using MinimalApi_test____Dapper___PostgreSQL.Middlewares;
 using MinimalApi_test____Dapper___PostgreSQL.Migrations;
 using MinimalApi_test____Dapper___PostgreSQL.Services;
 using Serilog;
+using StackExchange.Redis;
 using System.Data;
 using System.Globalization;
 using System.Reflection;
@@ -32,6 +33,12 @@ builder.Services.AddHangfireServer();
 builder.Services.AddSingleton<BackGroundJobService>();
 builder.Services.AddTransient<IBackgroundJobClient, BackgroundJobClient>();
 builder.Services.AddMemoryCache();
+builder.Services.AddScoped<ICacheRedisService, RedisCacheService>();
+
+builder.Services.AddSingleton<IDatabase>(provider => {
+    ConnectionMultiplexer redis = ConnectionMultiplexer.Connect("127.0.0.1:6379");
+    return redis.GetDatabase();
+});
 Log.Logger = new LoggerConfiguration()
            .WriteTo.Console()         
            .CreateLogger();
@@ -44,7 +51,7 @@ var serviceProvider = new ServiceCollection()
            .ConfigureRunner(rb => rb
            .AddSqlServer()
            .WithGlobalConnectionString("Server=DESKTOP-S9AIDDH\\SQLEXPRESS; Database=FluentMigratorDb; Trusted_Connection=True; TrustServerCertificate=True")
-           .ScanIn(typeof(CreateToDoTable).Assembly).For.Migrations())
+           .ScanIn(typeof(AddedGuidMigration).Assembly).For.Migrations())
            .AddLogging(lb => lb.AddFluentMigratorConsole())
            .BuildServiceProvider();
 //var runner = serviceProvider.GetRequiredService<IMigrationRunner>();
