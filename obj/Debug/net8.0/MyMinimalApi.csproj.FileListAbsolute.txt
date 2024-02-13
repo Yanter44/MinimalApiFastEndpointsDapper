@@ -125,3 +125,5 @@ C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8
 C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\nunit.framework.dll
 C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\nunit.framework.legacy.dll
 C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\AutoMapper.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\user\source\repos\MinimalApi(test) + Dapper + PostgreSQL\bin\Debug\net8.0\StackExchange.Redis.dll

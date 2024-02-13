@@ -5,9 +5,7 @@ using System.Data;
 namespace MinimalApi_test____Dapper___PostgreSQL.DataBase
 {
     public class SqlFactory : IDbConnectionFactory
-    {
-        
-
+    {     
         public SqlFactory()
         {
          
